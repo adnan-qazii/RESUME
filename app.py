@@ -19,10 +19,9 @@ circle_style = """
 <style>
 img {
     border-radius: 50%;
-    width: 180px;
-    height: 180px;
-    object-fit: cover;
-    border: 4px solid #4CAF50;
+    width: 90px;
+    height: 90px;
+    object-fit: cover
 }
 </style>
 """
@@ -30,7 +29,7 @@ st.markdown(circle_style, unsafe_allow_html=True)
 
 # Sections
 if section == "Home":
-    st.image(image, use_column_width=False)
+    st.image(image)
     st.title("Qazi Adnan")
     st.subheader("AI Engineer | ML • DL • Generative AI • AWS")
     st.write("📍 Srinagar, Jammu and Kashmir")
